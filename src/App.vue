@@ -1,12 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <nav class="navbar navbar-light bg-dark">
         <a class="navbar-brand text-info">Pizza 42 Benelux</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div>
           <ul class="navbar-nav mr-auto">
             <b-button-group>          
               <b-button variant="info" to="/">Home</b-button>          
